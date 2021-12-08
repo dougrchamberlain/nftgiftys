@@ -1,24 +1,16 @@
-<div id="mintable-widget"></div>
-<script>
-    (function (w, d, s, o, f, js, fjs) {
-        w["Mintable_Widget"] = o;
-        w[o] = w[o] ||
-            function () {
-                (w[o].q = w[o].q || []).push(arguments);
-            };
-        (js = d.createElement(s)), (fjs = d.getElementsByTagName(s)[0]);
-        js.id = o;
-        js.src = f;
-        js.async = 1;
-        fjs.parentNode.insertBefore(js, fjs);
-    })(window, document, "script", "widget", "https://unpkg.com/mintable-widget/dist/index.js");
-    widget("init", { targetElementId: "mintable-widget" });
-    widget("shownft", {
-        size: "full", ids: ["collectibles/listing/JdTb5DBNATuocnI", "collectibles/listing/TnmYg-v0Neq2SUF", "videos/listing/gMEnWMbmrUbGI0l", "art/listing/e6FzMvpGLQsjGHl", "collectibles/listing/-YdQbfeyjzfXTTM", "collectibles/listing/7m0B9z1rsx0UfsW", "collectibles/listing/uRXlnxSJdhj3W2X"], fontFamily: "Lato", backgroundColor: "#ffffff", fontColor: "#2d2d2d", subtitleColor: "#727272", buttonColor: "#000000", buttonTextColor: "#ffffff", boxShadow: true
-    });
-</script>
+<html>
 
-<nft-card contractAddress="0x2953399124f0cbb46d2cbacd8a89cf0599974963"
-    tokenId="36028251780231035512831532011925718263557077172492390881934509464012695011329">
-</nft-card>
-<script src="https://unpkg.com/embeddable-nfts/dist/nft-card.min.js"></script>
+<head>
+    <script src="https://unpkg.com/embeddable-nfts/dist/nft-card.min.js"></script>
+</head>
+
+<body>
+
+
+
+    <nft-card contractAddress="0x2953399124f0cbb46d2cbacd8a89cf0599974963"
+        tokenId="36028251780231035512831532011925718263557077172492390881934509464012695011329">
+    </nft-card>
+</body>
+
+</html>
